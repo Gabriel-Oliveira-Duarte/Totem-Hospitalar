@@ -21,16 +21,3 @@ class Paciente:
 
     def __str__(self):
         return f"Paciente: {self.nome} | Idade: {self.idade} | PCD: {'Sim' if self.pcd else 'Não'}"
-    
-if __name__ == "__main__":
-    nome = input("Nome: ")
-    idade = int(input("Idade: "))
-    pcd = input("Possui deficiência? (S/N): ")
-
-    paciente = Paciente(nome, idade, pcd)
-
-    print("\nDados do paciente:")
-    print(paciente)
-    print("É prioritário?", paciente.eh_prioritario())
-    print("Tipo de atendimento:", paciente.tipo_atendimento())
-    print("Dados completos:", paciente.dados())
