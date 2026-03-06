@@ -4,7 +4,8 @@
 ````markdown
 # Totem Hospitalar - Sistema de Atendimento
 
-Este projeto é um sistema de atendimento automatizado para um hospital, onde pacientes podem se cadastrar e escolher o tipo de serviço desejado. O sistema gera senhas e imprime tickets de atendimento.
+Este projeto é um sistema de atendimento automatizado para um hospital, onde pacientes podem se cadastrar e escolher o
+tipo de serviço desejado. O sistema gera senhas e imprime tickets de atendimento.
 
 ## Funcionalidades
 
