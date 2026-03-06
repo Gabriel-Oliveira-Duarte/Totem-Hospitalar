@@ -98,6 +98,3 @@ O sistema pedirá os dados do paciente, selecionará o serviço desejado e gerar
 │ └── impressora.py   # Classe Impressora
 └── README.md         # Este arquivo
 ```
-
-```
-
