@@ -12,4 +12,4 @@ class GeradorSenha:
             self.senhas_prioridade += 1
             return f"P-{self.senhas_prioridade:03d}"
         else:
-            raise ValueError("Tipo inválido. Use 'G' para geral ou 'P' para prioridade.")
+            raise ValueError("Tipo inválido!. Use 'G' para geral ou 'P' para prioridade.")
