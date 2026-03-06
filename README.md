@@ -101,5 +101,3 @@ O sistema pedirá os dados do paciente, selecionará o serviço desejado e gerar
 
 ```
 
-Agora o **README.md** está mais direto ao ponto, sem a parte de contribuições ou licença. Se precisar de mais alguma coisa, é só me avisar!
-```
