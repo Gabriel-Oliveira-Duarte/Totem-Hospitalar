@@ -29,25 +29,37 @@ tipo de serviço desejado. O sistema gera senhas e imprime tickets de atendiment
 git clone https://github.com/SEU_USUARIO/totem-hospitalar.git
 ````
 
-2. **Abra o projeto no Visual Studio Code (VSCode)** (opcional):
+2. **Abra o terminal e execute o sistema**:
 
-   * Se estiver utilizando o **VSCode**, abra o diretório do projeto com o comando abaixo:
+   **Se estiver usando o VSCode**:
 
-```bash
-code .
-```
+   * O **VSCode** possui um terminal integrado que você pode usar para rodar o sistema. Para abrir o terminal, vá até a opção **Terminal → New Terminal**.
+   * Depois de abrir o terminal integrado, você pode executar o código com o comando:
+
+   ```bash
+   python main.py
+   ```
+
+   **Alternativa no VSCode**:
+
+   * Se preferir uma forma mais simples, você pode usar a opção **Run Python File in Terminal**, que executa automaticamente o arquivo `main.py` no terminal integrado.
+   * Basta clicar no botão de **play** no canto superior direito do **VSCode**, ou usar o atalho **Ctrl+Shift+P** (Windows) ou **Cmd+Shift+P** (Mac) e buscar por "Run Python File in Terminal".
+
+   **Se estiver usando o CMD ou PowerShell**:
+
+   * Abra o **CMD** ou **PowerShell**, navegue até a pasta do projeto usando o comando `cd` e então execute o sistema com:
+
+   ```bash
+   python main.py
+   ```
 
 3. **Execute o sistema**:
-
-   * No **VSCode**, você pode rodar o sistema diretamente no terminal integrado, ou usar **CMD** ou qualquer terminal para rodar o arquivo `main.py`.
 
    * Para rodar o sistema, basta executar o arquivo `main.py` com o seguinte comando:
 
 ```bash
 python main.py
 ```
-
-* Isso pode ser feito tanto no **VSCode** quanto em um terminal como o **CMD** ou **PowerShell**.
 
 ### Interação com o sistema
 
@@ -67,7 +79,4 @@ O sistema pedirá os dados do paciente, selecionará o serviço desejado e gerar
 │ ├── gerador_senha.py # Classe GeradorSenha
 │ └── impressora.py   # Classe Impressora
 └── README.md         # Este arquivo
-```
-
-Agora, o **README.md** está claro sobre como executar o sistema em diversos ambientes, seja no **VSCode**, **CMD**, ou outros terminais.
 ```
