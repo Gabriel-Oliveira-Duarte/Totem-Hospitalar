@@ -53,14 +53,6 @@ git clone https://github.com/SEU_USUARIO/totem-hospitalar.git
    python main.py
    ```
 
-3. **Execute o sistema**:
-
-   * Para rodar o sistema, basta executar o arquivo `main.py` com o seguinte comando:
-
-```bash
-python main.py
-```
-
 ### Interação com o sistema
 
 O sistema pedirá os dados do paciente, selecionará o serviço desejado e gerará a senha, imprimindo o ticket correspondente. Você pode continuar cadastrando novos pacientes ou encerrar o sistema.
