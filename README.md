@@ -18,6 +18,8 @@ tipo de serviço desejado. O sistema gera senhas e imprime tickets de atendiment
 ### Pré-requisitos
 
 - **Python 3.x** instalado em sua máquina.
+- **Visual Studio Code (VSCode)** instalado (opcional, mas recomendado).
+- Ou qualquer terminal (CMD, PowerShell, Terminal do VSCode, etc.)
 
 ### Passos
 
@@ -27,19 +29,25 @@ tipo de serviço desejado. O sistema gera senhas e imprime tickets de atendiment
 git clone https://github.com/SEU_USUARIO/totem-hospitalar.git
 ````
 
-2. **Entre no diretório do projeto**:
+2. **Abra o projeto no Visual Studio Code (VSCode)** (opcional):
+
+   * Se estiver utilizando o **VSCode**, abra o diretório do projeto com o comando abaixo:
 
 ```bash
-cd totem-hospitalar
+code .
 ```
 
-3. **Execute o sistema**
+3. **Execute o sistema**:
 
-Para rodar o sistema, basta executar o arquivo `main.py`:
+   * No **VSCode**, você pode rodar o sistema diretamente no terminal integrado, ou usar **CMD** ou qualquer terminal para rodar o arquivo `main.py`.
+
+   * Para rodar o sistema, basta executar o arquivo `main.py` com o seguinte comando:
 
 ```bash
 python main.py
 ```
+
+* Isso pode ser feito tanto no **VSCode** quanto em um terminal como o **CMD** ou **PowerShell**.
 
 ### Interação com o sistema
 
@@ -61,3 +69,5 @@ O sistema pedirá os dados do paciente, selecionará o serviço desejado e gerar
 └── README.md         # Este arquivo
 ```
 
+Agora, o **README.md** está claro sobre como executar o sistema em diversos ambientes, seja no **VSCode**, **CMD**, ou outros terminais.
+```
